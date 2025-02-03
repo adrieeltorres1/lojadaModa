@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     border: 0;
     outline: none;
-    font-family: "Montserrat", serif;
+    font-family: "Poppins", serif;
   }
 
 `;

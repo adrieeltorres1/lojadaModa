@@ -4,12 +4,14 @@ import styled from "styled-components";
 const HeaderContainer = styled.div` 
     display: flex;
     align-items: center;
-    /* border: 1px solid #000; */
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 8px;
     padding: 8px;
 `;
 
 const StyledLogo = styled.div`
-    margin-left: 50px;
+    /* margin-left: 250px; */
     /* display: flex; */
     /* width: 50px; */
     /* border: 1px solid #ff0000; */
@@ -27,10 +29,11 @@ const StyledNavList =  styled.div`
         cursor: pointer;
 
        & button {
-            height: 30px;
-            width: 60px;
-            border-radius: 5px;
+            height: 40px;
+            width: 125px;
+            border-radius: 7px;
             border: 1px solid black;
+            font-size: 20px;
             color: #ffffff;
             background-color: #000000;
             cursor: pointer;
@@ -38,15 +41,13 @@ const StyledNavList =  styled.div`
         }
 
         & button:hover {
-            background-color: #575151;
+            background-color: #413d3d;
             transition-duration: 0.3s;
         }
         & li:hover {
-            background-color: #e9e915ce;
+            background-color: #E6C744;
         }
     }
-
-   
 `;
 
 // Parte "HTML"
