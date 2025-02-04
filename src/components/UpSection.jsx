@@ -2,25 +2,23 @@ import React from "react";
 import styled from "styled-components";
 import BannerInicial from '../assets/Banner.png'
 
-const imgContainer = styled.div`
-    border: 1px solid red;
-    
+const ImgContainer = styled.div`
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 980px; 
+    height: 500px; 
+    overflow: hidden; 
     & img {
-        width: 100px;
-        height: 100px;
+        width: 100%;
+        height: auto;
     }
-
-`
+`;
 
 const SectionUp = () => {
     return ( 
-        <>
-        <imgContainer />
+        <ImgContainer>
             <img src="./src/assets/banner.png" alt="" srcset="" />
-        <imgContainer/>
-        </>
-        
-
+        </ImgContainer>
      
     );
 }
