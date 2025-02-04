@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import logo from "../assets/fashion-logo.png"
 
 // Parte "css"
 const HeaderContainer = styled.div` 
@@ -11,10 +12,12 @@ const HeaderContainer = styled.div`
 `;
 
 const StyledLogo = styled.div`
-    /* margin-left: 250px; */
-    /* display: flex; */
-    /* width: 50px; */
-    /* border: 1px solid #ff0000; */
+    display: flex;
+    align-items: center;
+    
+    & img {
+        width: 25px;
+    }
    
 `;
 
@@ -55,9 +58,10 @@ const StyledNavList =  styled.div`
 const Header = () => {
     return ( 
         <HeaderContainer>
-            <StyledLogo/>
+            <StyledLogo>
+                <img src="../src/assets/fashion-logo.png" alt="" srcset="" />
                 <h3>FASHION</h3>
-            <StyledLogo/>
+            </StyledLogo>
             <StyledNavList>
                 <ul>
                     <li>CATALOGUE</li>
