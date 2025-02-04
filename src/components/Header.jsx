@@ -28,7 +28,7 @@ const StyledNavList =  styled.div`
         align-items: center;
         list-style: none;
         font-weight: 500;
-        gap: 20px;
+        gap: 50px;
         cursor: pointer;
 
        & button {

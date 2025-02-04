@@ -1,12 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import BannerInicial from '../assets/Banner.png'
+import BannerInicial from '../assets/Banner.png';
 
 const ImgContainer = styled.div`
     margin: 0 auto;
     margin-top: 15px;
-    width: 980px; 
-    height: 500px; 
+    width: 180vh; 
+    height: 800px; 
     overflow: hidden; 
     & img {
         width: 100%;
@@ -17,9 +17,8 @@ const ImgContainer = styled.div`
 const SectionUp = () => {
     return ( 
         <ImgContainer>
-            <img src="./src/assets/banner.png" alt="" srcset="" />
+            <img src="./src/assets/banner.png"/>
         </ImgContainer>
-     
     );
 }
  
